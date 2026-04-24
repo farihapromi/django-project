@@ -11,3 +11,5 @@ def hello_world(request):
 class BookShop(View):
     def get(self, request):
         return HttpResponse("Hello BookShop")
+
+    # link view class and function to addresses
